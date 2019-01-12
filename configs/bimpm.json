@@ -1,0 +1,51 @@
+{
+    "max_length": 100,
+    "char_limit": 10,
+    "scope":"BiMPM",
+    "num_classes":2,
+
+
+    "with_char": false,
+    "char_emb_dim": 20,
+    "char_lstm_dim": 40,
+
+    "batch_size": 100,
+    "max_epochs": 100,
+    "dropout_rate": 0.2,
+    "learning_rate": 0.001,
+    "optimizer": "adam",
+    "lambda_l2": 0.0,
+    "grad_clipper": 10.0,
+
+    "context_layer_num": 1,
+    "context_lstm_dim": 100,
+    "aggregation_layer_num": 1,
+    "aggregation_lstm_dim": 100,
+
+    "with_full_match": true,
+    "with_maxpool_match": true,
+    "with_max_attentive_match": true,
+    "with_attentive_match": true,
+
+    "with_cosine": true,
+    "with_mp_cosine": true,
+    "cosine_MP_dim": 5,
+
+    "att_dim": 50,
+    "att_type": "symmetric",
+
+    "highway_layer_num": 1,
+    "with_highway": true,
+    "with_match_highway": true,
+    "with_aggregation_highway": true,
+
+    "use_cudnn": false,
+
+    "with_moving_average": 0.999,
+
+    "loss":"focal_loss_binary_v2",
+
+    "alpha":0.5,
+    "gamma":2.0,
+    "name":"focal_loss_binary_v2"
+}

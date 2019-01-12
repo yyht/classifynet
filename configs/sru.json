@@ -1,0 +1,56 @@
+{
+    "max_length": 100,
+    "char_limit": 10,
+    "scope":"BiBLOSA",
+    "num_classes":2,
+
+    "with_char": false,
+    "char_emb_dim": 20,
+    "char_lstm_dim": 40,
+
+    "batch_size": 100,
+    "max_epochs": 100,
+    "dropout_rate": 0.2,
+    "learning_rate": 0.001,
+    "optimizer": "adam",
+    "lambda_l2": 0.0,
+    "grad_clipper": 10.0,
+
+    "context_layer_num": 1,
+    "context_lstm_dim": 300,
+
+    "slstm_layer_num": 5,
+
+    "rnn":"lstm",
+    "random_initialize":false,
+    "step":5,
+    "slstm_hidden_size":300,
+
+    "highway_layer_num": 2,
+    "with_highway": true,
+    "with_match_highway": true,
+    "with_aggregation_highway": true,
+    "out_channel_dims":[50,50,50],
+
+    "use_cudnn": false,
+
+    "with_moving_average": 0.999,
+
+    "weight_decay":1e-5,
+    "context_fusion_method":"sru",
+    "block_len":5,
+
+    "loss":"softmax_loss",
+    "use_bi":true,
+    "method_index":1,
+    "persp_method":"pooling",
+    "persp_num":4,
+
+    "alpha":0.5,
+    "gamma":2.0,
+    "name":"softmax_loss",
+    "filter_heights":[1,3,5],
+
+    "scale":30,
+    "margin":0.35
+}

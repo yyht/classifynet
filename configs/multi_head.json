@@ -1,0 +1,50 @@
+{
+    "max_length": 100,
+    "char_limit": 10,
+    "scope":"BiBLOSA",
+    "num_classes":2,
+
+    "with_char": false,
+    "char_emb_dim": 20,
+    "char_lstm_dim": 40,
+
+    "batch_size": 100,
+    "max_epochs": 100,
+    "dropout_rate": 0.2,
+    "learning_rate": 0.0001,
+    "optimizer": "adam",
+    "lambda_l2": 0.0,
+    "grad_clipper": 10.0,
+
+    "context_layer_num": 1,
+    "context_lstm_dim": 256,
+
+    "slstm_layer_num": 5,
+
+    "rnn":"slstm",
+    "random_initialize":false,
+    "step":5,
+    "slstm_hidden_size":300,
+
+    "highway_layer_num": 1,
+    "with_highway": true,
+    "with_match_highway": true,
+    "with_aggregation_highway": true,
+
+    "use_cudnn": false,
+
+    "with_moving_average": 0.999,
+
+    "weight_decay":1e-5,
+    "context_fusion_method":"multi_head",
+    "block_len":5,
+
+    "loss":"focal_loss_binary_v2",
+
+    "alpha":0.5,
+    "gamma":2.0,
+    "name":"focal_loss_binary_v2",
+
+    "scale":30,
+    "margin":0.35
+}

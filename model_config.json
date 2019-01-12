@@ -1,0 +1,23 @@
+{
+	"textcnn":"textcnn.json",
+	"swem":"swem.json",
+	"leam":"leam.json",
+	"label_network":"label_network.json",
+	"sru_normal": "sru_normal.json",
+	 "capsule":"capsule.json", 
+	 "hrchy_cnn": "hrchy_cnn.json", 
+	 "bimpm": "bimpm.json", 
+	 "sru": "sru.json", 
+	 "esim": "esim.json", 
+	 "base_transformer": "base_transformer.json", 
+	 "universal_transformer": "universal_transformer.json", 
+	 "gru": "gru.json", 
+	 "disa": "disa.json", 
+	 "multi_cnn": "multi_cnn.json", 
+	 "multi_head_git": "multi_head_git.json", 
+	 "biblosa": "biblosa.json", 
+	 "multi_head": "multi_head.json", 
+	 "lstm": "lstm.json",
+	 "deeppyramid":"deeppyramid.json",
+	 "re_augument":"re_augument.json"
+}
